@@ -92,7 +92,10 @@ button {
     padding: 10px 0;
     text-transform: uppercase;
     width: 100%;
+    outline: 0;
+    border: 0;
 }
+
 button:hover {
     background: #FFFFFF;
     color: #FC7614;
