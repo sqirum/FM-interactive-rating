@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #131518;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+main {
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 412px;
+    width: 100%;
+    padding: 35px;
+}
+
+.circle {
+    vertical-align: middle;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #262E38;
+    max-width: 50px;
+    object-fit: none;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7C8798;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    max-height: 50px;
+}
+
+img.circle {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #969FAD;
+    margin-bottom: 25px;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.ratings .circle:hover {
+    color: white;
+    background: #7C8798;
+}
+
+.ratings .circle:focus,
+.ratings .circle:active {
+    background-color: #FC7614;
+    color: white;
+}
+
+button {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    background: #FC7614;
+    border-radius: 22.5px;
+    cursor: pointer;
+    padding: 10px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+button:hover {
+    background: #FFFFFF;
+    color: #FC7614;
+    transition: all 300ms ease-in-out;
+}
+
+.successScreen {
+    text-align: center;
+    display: none;
+}
+
+.successScreen img{
+    margin-bottom: 32px;
+}
+
+.successScreen p:nth-child(1) {
+    background-color: #FC7614;
+    background: #262E38;
+    border-radius: 22.5px;
+    padding: 5px 20px;
+    margin-bottom: 32px;
+}
+
+.successScreen h2 {
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.successScreen p:nth-child(2) {
+    color: #969FAD;
+    font-size: 15px;
+    line-height: 24px;
+}
