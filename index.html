@@ -33,19 +33,6 @@
     </div>
   </main>
 
-
-
-  <!-- Thank you state start
-
-  
-
-  
-
-  
-
-  Thank you state end -->
-
-
 </body>
 <script>
   const review = document.getElementsByClassName("rating-circle");
@@ -57,7 +44,7 @@
   arr.forEach(item => {
     item.addEventListener('click', function() {
       const selectedRating = document.getElementsByClassName("selected-rating");
-      
+
       selectedRating[0].innerHTML = item.innerHTML;
       startingScreen.style.display = 'none';
       successScreen[0].style.display = 'block';
